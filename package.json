@@ -1,0 +1,23 @@
+{
+  "name": "react-complete-guide",
+  "version": "1.0.0",
+  "description": "It's React environment setup for React app.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aadil42/REACT-COMPLETE-GUIDE.git"
+  },
+  "author": "Aadil42",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/aadil42/REACT-COMPLETE-GUIDE/issues"
+  },
+  "homepage": "https://github.com/aadil42/REACT-COMPLETE-GUIDE#readme",
+  "dependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  }
+}
