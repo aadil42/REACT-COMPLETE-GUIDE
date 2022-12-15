@@ -1,16 +1,16 @@
-import React from 'react';
-import ReactDom from 'react-dom';
 
-import "App.css";
+import React, { Component} from "react";
+import {hot} from "react-hot-loader";
+import "./App.css";
 
-import tiger from "./mike-marrah-gRB4Euk4BYQ-unsplash.jpg";
-
-const App = () => (
-    <div>
-        <h1>hello React this is set up custom way</h1>
-        <img src={tiger} />
-    </div>
-);
-
+class App extends Component{
+  render(){
+    return(
+      <div className="App">
+        <h1> Hello, World! baby </h1>
+      </div>
+    );
+  }
+}
 
 export default App;

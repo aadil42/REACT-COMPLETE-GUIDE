@@ -1,28 +1,37 @@
 {
-  "name": "react-setup-tutorial",
+  "name": "react-setup",
   "version": "1.0.0",
-  "description": "",
+  "description": "It's custom setup of react js",
   "main": "index.js",
   "scripts": {
-    "start": "webpack-dev-server --hot --open",
-    "build": "webpack --config webpack.config.js --mode production"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "webpack-dev-server --mode production"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aadil42/REACT-COMPLETE-GUIDE.git"
+  },
+  "author": "aadil42",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/aadil42/REACT-COMPLETE-GUIDE/issues"
+  },
+  "homepage": "https://github.com/aadil42/REACT-COMPLETE-GUIDE#readme",
+  "devDependencies": {
+    "@babel/cli": "^7.1.0",
+    "@babel/core": "^7.1.0",
+    "@babel/preset-env": "^7.1.0",
+    "@babel/preset-react": "^7.0.0",
+    "babel-loader": "^8.0.2",
+    "css-loader": "^1.0.0",
+    "style-loader": "^0.23.0",
+    "webpack": "^4.19.1",
+    "webpack-cli": "^3.1.1",
+    "webpack-dev-server": "^3.1.8"
+  },
   "dependencies": {
-    "@babel/core": "^7.11.0",
-    "@babel/preset-env": "^7.11.0",
-    "@babel/preset-react": "^7.10.4",
-    "babel-loader": "^8.1.0",
-    "css-loader": "^4.2.0",
-    "file-loader": "^6.0.0",
-    "html-webpack-plugin": "^4.3.0",
-    "react": "^16.13.1",
-    "react-dom": "^16.13.1",
-    "style-loader": "^1.2.1",
-    "webpack": "^4.44.1",
-    "webpack-cli": "^3.3.12",
-    "webpack-dev-server": "^3.11.0"
+    "react": "^16.5.2",
+    "react-dom": "^16.5.2",
+    "react-hot-loader": "^4.3.11"
   }
 }
